@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin: 15px 20px;
+ color: gray;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.links > ul > li{
+    
+    margin-right: 25px;
+    display: inline-block;
+    list-style: none;
+}
+.links >ul > li:last-child{
+    margin-right: 0;
+}
+ul{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+.box{
+    display: flex;
+    margin: 50px 70px;
+    justify-content: space-between;
+}
+.box > div{
+ display: flex;
+ justify-content: space-between;
+ flex-direction: column;
+ height: 600px;
+ margin-right: 50px;
+}
+.box > img{
+    height: 600px;
+}
+
+div > h1{
+font-size: 5.2rem;
+white-space:pre-wrap;
+font-weight: bolder;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+div >p{
+    color: gray;
+    font-family: "Nunito", sans-serif;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.box > div > a{
+    text-decoration: none;
+    padding: 20px;
+    background: black; 
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: white;
+    width: 115px;
+}
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+
+
+}
+
+ ul li:last-child{
+    margin-right: 0;
+}
+.btn{
+    border:1px solid;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.ads{
+    padding: 0;
+    margin-top: 20px;
+    width: 100%;
+}
+.ads > li {
+    margin-right: 35px;
+}
+.mobile{
+    display: none;
+}
+
+
+.mobile_box{
+    display: none;
+}
+
+@media (max-width:800px){
+   .links{
+    display: none;
+   }
+   .mobile{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px;
+   }
+ 
+   .box{
+    display: none;
+   }
+   .mobile_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+   
+   
+   }
+   .bold{
+   font-size: 3.5rem;
+   color: black;
+   font-weight: 5.5rem;
+   }
+   .center{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+  
+ .black{
+    text-align: center;
+    margin-top: 20px;
+    background: black;
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 25px 35px;
+    width:70px ;
+    margin: auto;
+ 
+    color: white;
+   }
+  
+   .info{
+    display: none;
+   }
+   .ad_s{
+    margin-top: 100px;
+    text-align: center;
+
+   }
+.ad_s li:last-child{
+ margin-right: 0;
+}
+}
